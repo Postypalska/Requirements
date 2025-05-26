@@ -60,12 +60,3 @@ This project provides a system for booking conference rooms and related resource
 
 ---
 
-## 🚀 Getting Started
-
-_This section can include setup instructions, tech stack, or how to run the project locally. Add when ready._
-
----
-
-## 📂 License
-
-_You can add a license here (MIT, Apache 2.0, etc.)_
