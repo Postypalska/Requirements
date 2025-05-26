@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
+  <diagram name="C4 System Diagram - Detailed" id="0">
+    <mxGraphModel dx="1389" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="10" value="&lt;div&gt;👤&amp;nbsp;&lt;strong data-end=&quot;187&quot; data-start=&quot;179&quot;&gt;User&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;br&gt;• View resources&lt;br&gt;• Create reservations&lt;br&gt;• View/cancel reservations" style="shape=actor;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="370" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="🌐 &lt;strong data-end=&quot;288&quot; data-start=&quot;266&quot;&gt;Web Interface (UI)&lt;/strong&gt;&lt;br data-end=&quot;291&quot; data-start=&quot;288&quot;&gt;&lt;br/&gt;• Registration/Login form&lt;br data-end=&quot;319&quot; data-start=&quot;316&quot;&gt;&lt;br/&gt;• Resource catalog&lt;br data-end=&quot;340&quot; data-start=&quot;337&quot;&gt;&lt;br/&gt;• User dashboard" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#dae8fc;" parent="1" vertex="1">
+          <mxGeometry x="240" y="380" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="🔧 &lt;strong data-end=&quot;380&quot; data-start=&quot;363&quot;&gt;API (Backend)&lt;/strong&gt;&lt;br data-end=&quot;383&quot; data-start=&quot;380&quot;&gt;&lt;br/&gt;• User registration/login&lt;br data-end=&quot;411&quot; data-start=&quot;408&quot;&gt;&lt;br/&gt;• CRUD for reservations&lt;br data-end=&quot;437&quot; data-start=&quot;434&quot;&gt;&lt;br/&gt;• Availability check&lt;br data-end=&quot;460&quot; data-start=&quot;457&quot;&gt;&lt;br/&gt;• Handle UI requests" style="shape=rectangle;whiteSpace=wrap;html=1;fillColor=#d5e8d4;" parent="1" vertex="1">
+          <mxGeometry x="524" y="329" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="🗄️ &lt;strong data-end=&quot;500&quot; data-start=&quot;488&quot;&gt;Database&lt;/strong&gt;&lt;br data-end=&quot;503&quot; data-start=&quot;500&quot;&gt;&lt;br/&gt;• Users table&lt;br data-end=&quot;519&quot; data-start=&quot;516&quot;&gt;&lt;br/&gt;• Resources table&lt;br data-end=&quot;539&quot; data-start=&quot;536&quot;&gt;&lt;br/&gt;• Reservations table&lt;br data-end=&quot;562&quot; data-start=&quot;559&quot;&gt;&lt;br/&gt;• Action logs" style="shape=cylinder;whiteSpace=wrap;html=1;fillColor=#fff2cc;" parent="1" vertex="1">
+          <mxGeometry x="820" y="400" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;div&gt;🛠️&lt;strong data-end=&quot;92&quot; data-start=&quot;75&quot;&gt;Administrator&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;line-height: 100%;&quot;&gt;• Add resources&lt;br&gt;• View statistics&lt;br&gt;• Manage permissions&lt;br&gt;• Moderate users&lt;/font&gt;&lt;/div&gt;" style="shape=actor;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="90" width="170" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="🌍 &lt;strong data-end=&quot;602&quot; data-start=&quot;582&quot;&gt;External Service&lt;/strong&gt;&lt;br data-end=&quot;605&quot; data-start=&quot;602&quot;&gt;&lt;br/&gt;• Payment system (Stripe, LiqPay)&lt;br data-end=&quot;641&quot; data-start=&quot;638&quot;&gt;&lt;br/&gt;• Notification sending&lt;br data-end=&quot;666&quot; data-start=&quot;663&quot;&gt;&lt;br/&gt;• API integration&lt;br data-end=&quot;686&quot; data-start=&quot;683&quot;&gt;&lt;br/&gt;• Transaction logging" style="shape=rectangle;whiteSpace=wrap;html=1;dashed=1;fillColor=#f8cecc;" parent="1" vertex="1">
+          <mxGeometry x="560" y="580" width="260" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="10" target="11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="11" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="12" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="14" target="12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" parent="1" source="12" target="15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
